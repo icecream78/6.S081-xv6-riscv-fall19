@@ -27,7 +27,6 @@ int ntas();
 int crash(const char*, int);
 int mount(char*, char *);
 int umount(char*);
-int uptime();
 
 // ulib.c
 int stat(const char*, struct stat*);
