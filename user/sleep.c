@@ -8,10 +8,14 @@ int main(int argc, char *argv[])
         exit();
     }
 
-    // TODO: add check for non number input
-    int sleepSec = atoi(argv[1]);
+    if (strisint(argv[1]) != 1) {
+        printf("non numberic value provided\n");
+        exit();
+    }
 
-    sleep(sleepSec * 10);
+    int sleepSec = atoi(argv[1]); // parse string to int value
+
+    sleep(sleepSec * 10); // make syscall with seconds count
 
     exit();
 }
