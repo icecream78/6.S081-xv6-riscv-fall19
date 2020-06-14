@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "**/*.yml": "ansible",
+        "*.tcc": "cpp",
+        "fstream": "cpp",
+        "system_error": "cpp"
+    }
+}
